@@ -59,7 +59,8 @@ public class Main2 {
 
 //        while (!cont.equalsIgnoreCase("n")) {
 
-//user inputs how many burritos they want
+//user inputs how many burritos they want:
+        //uncomment lines 64 + 65, comment line 66
 //            System.out.println("How many burros would you like?");
 //            userResponseNum = sc.nextInt();
             int userResponseNum = 10;
@@ -92,4 +93,7 @@ public class Main2 {
         }while(num <= userResponseNum);
         System.out.println("Enjoy your burrito!!");
     }
+
+    //numerous uncomments are from original code in 'Main' class
+    //this class auto generates x number of burritos for customer
 }
